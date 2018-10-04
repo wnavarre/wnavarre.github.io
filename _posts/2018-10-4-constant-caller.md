@@ -32,7 +32,7 @@ All so far has been good, but quickly one comes upon the questions: how do we *m
 
 We quickly end up with code like this:
 
-```
+{% highlight c++ %}
 template <bool elem_signedness, char elem_width, bool must_check_for_null>
 void process_dynamic_array(void * head, size_t len) {
   // whatever...
@@ -98,7 +98,7 @@ void process_dynamic_array(void * head, size_t len, bool elem_signedness, char e
     }
   }
 }
-
+{% endhighlight %}
 ```
 
 So obviously, things get unwieldy quick!
@@ -107,7 +107,7 @@ Now, on to the solution!
 
 To handle just one level at a time, I created this gadget:
 
-```
+{% highlight c++ %}
     template <typename T, T... u>
     struct constant_call {
         typedef T value_type;
@@ -123,11 +123,11 @@ To handle just one level at a time, I created this gadget:
             if (!found) throw "Bad value!";
         }
     };
-```
+{% endhighlight %}
 
 That lets us write code like this:
 
-```
+{% highlight c++ %}
 void process_dynamic_array(void * head, size_t len, bool elem_signedness, char elem_width, bool must_check_for_nulls) {
   constant_call<char, 1, 2, 4, 8>::call(width, [&] (auto width_t) {
     constant_call<bool, true, false>::call(elem_signedness, [&] (auto signedness_t) {
@@ -137,11 +137,11 @@ void process_dynamic_array(void * head, size_t len, bool elem_signedness, char e
     });
   });
 }
-```
+{% endhighlight %}
 
 But we can definitely do better! This gadget allows us to chain the arguments, consolidating into one callback!
 
-```
+{% highlight c++ %}
     template <typename... constant_calls>
     struct chain;
 
@@ -188,11 +188,11 @@ But we can definitely do better! This gadget allows us to chain the arguments, c
             call_impl(std::forward<Callback>(c));
         }
     };
-```
+{% endhighlight %}
 
 That will let us write code like this:
 
-```
+{% highlight c++ %}
 void process_dynamic_array(void * head, size_t len, bool elem_signedness, char elem_width, bool must_check_for_nulls) {
   chain<>()
   .add<char, 1, 2, 3, 8>(width)
@@ -202,4 +202,4 @@ void process_dynamic_array(void * head, size_t len, bool elem_signedness, char e
     process_dynamic_array<signedness_t(), width_t(), check_nulls_t()>(head, len);
   });
 }
-```
+{% endhighlight %}
