@@ -7,12 +7,12 @@ In C++, one use of value-templates is to effectively specify a family of functio
 
 For example, this template function specifies a family of functions:
 
-```
+{% highlight c++ %}
 template <int constant_factor>
 int multiply_by(int inp) {
     return inp * constant_factor;
 }
-```
+{% endhighlight %}
 
 Each member in this family of functions takes an integer argument and returns an integer. Members of the family would include `multiply_by<10>` which returns 10 times the input, and `multiply_by<0>` which, incidentally, always returns 0. Typing these expressions in a c++ program is the cue to the compiler to instantiate the named function (that is, create a version of the function with the specified constant). (Side note: these functions are just as proper functions as those that are not instantiated from a template! For example, you can refer to them in a function pointer!)
 
