@@ -194,7 +194,7 @@ That will let us write code like this:
 
 ```
 void process_dynamic_array(void * head, size_t len, bool elem_signedness, char elem_width, bool must_check_for_nulls) {
-  chain<>
+  chain<>()
   .add<char, 1, 2, 3, 8>(width)
   .add<bool, true, false>(elem_signedness)
   .add<bool, true, false>(must_check_for_nulls)
