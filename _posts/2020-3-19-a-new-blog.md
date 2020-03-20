@@ -3,13 +3,13 @@ layout: post
 title: A blog of rants, local politics, and fundamental change
 ---
 
-## Justification for blog sought
-
 Now will perhaps reveal itself to have been the worst time to start a blog of any kind. Perhaps the market will be beyond saturated with blogs from those who, cooped up in their homes to try to mitigate the spread of COVID-19, start a blog. 
 
 More morbidly, COVID-19 may well reveal itself to be such an awful tragedy that forging ahead on political change beyond it will come to be seen in poor taste.
 
 Nevertheless, I shall keep on.
+
+## Justification for blog sought
 
 And I suspect a great number of the blogs will open with an explanation justifying their existance, and most explanations will be suspiciiously more glamorous than a simple exposition on the author's need to distract himself from drinking too much chocolate milk during social distancing.
 
