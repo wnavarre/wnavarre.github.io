@@ -37,6 +37,8 @@ And, more importantly, it's possible that *no* tenant would be willing to pay th
 
 It's important at this point that I stress that ground rent is only *relative,* not absolute. We'd be hard-pressed to say that any slice of Earth is useless, but we can quite reasonably say that land of a particular usefulness commands zero ground rent because it is so plentiful that some of it is left unused even if the ground rent is put down to zero and any who want to use it are free to do so. 
 
+What's interesting is that renting a place to live *without* making such a bet is nearly impossible. 
+
 ## Ownership as lease
 
 When someone buys land, the *price* is based on all the future ground rents the owner expects to be able to keep. That is the total ground rent, less the taxes that will be due on the land.
