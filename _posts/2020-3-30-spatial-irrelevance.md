@@ -25,7 +25,7 @@ Entertainment venues and many workplaces are closed. Though the city of Medford 
 
 Locations and distances only really matter once someone decides to traverse them. When destinations in the city are closed, and when we are advised to avoid public transportation, we might as well live in Vermont.
 
-It's clear to me that real short-term ground rents in Medford has plummeted during the pandemic as the location advantages of our apartments fade away. Access to this land is only a bit better than the land in Vermont.
+It's clear to me that real short-term ground rents in Medford have plummeted during the pandemic as the location advantages of our apartments fade away. Access to this land is only a bit better than the land in Vermont.
 
 ## Leases as bets
 
