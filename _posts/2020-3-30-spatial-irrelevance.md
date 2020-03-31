@@ -81,4 +81,8 @@ Ultimately, the way forward has to be to eliminate the price stickiness of mortg
 
 The way to do that is to increase the taxes on land to take more of the ground rent. This will drive down prices.
 
-The landowner, in his role as landowner, neither creates the location nor makes the location desirable. Since we do not depend on anyone to make the land, we do not need anyone in particular to keep the ground rent. 
+The landowner, in his role as landowner, neither creates the location nor makes the location desirable. Since we do not depend on anyone to make the land, we do not need anyone in particular to keep the ground rent.
+
+The usual argument for a land value tax is it prevents land speculation. And this is quite true, and this point will be made in future blog posts. 
+
+But socializing the ground rent in this way also socializes risk, both upside and downside. Rather than landowners taking a hit when the ground rents go down, and living high on the hog when land ground rents go up, a high land value tax allows the uncertainty to be born by government budgets rather than household budgets. 
