@@ -61,7 +61,9 @@ Ground rent itself is not an evil thing.
 
 Ground rent arises from the need to allocate scarce land efficiently. The idea is that if you want a better location, you can choose to pay a higher ground rent. Putting down the ground rent will not make good locations any less scarce.
 
-The market's job, though, should always to allocate scarce economic resources. 
+The market's job, though, should always to allocate scarce economic resources.
+
+During this crisis, not only has the relative value of urban land dropped, but so has the ability to pay. Therefore, the price at which land can be allocated without a shortage has also dropped, and so the natural rent has likewise dropped.
 
 ## Risk
 
