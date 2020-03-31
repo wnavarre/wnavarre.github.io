@@ -87,4 +87,4 @@ The landowner, in his role as landowner, neither creates the location nor makes 
 
 The usual argument for a land value tax is it prevents land speculation. And this is quite true, and this point will be made in future blog posts. 
 
-But socializing the ground rent in this way also socializes risk, both upside and downside. Rather than landowners taking a hit when the ground rents go down, and living high on the hog when land ground rents go up, a high land value tax allows the uncertainty to be born by government budgets rather than household budgets. 
+But socializing the ground rent in this way also socializes risk, both upside and downside. Rather than landowners taking a hit when the ground rents go down, and living high on the hog when ground rents go up, a high land value tax allows the uncertainty to be borne by government budgets rather than household budgets. 
